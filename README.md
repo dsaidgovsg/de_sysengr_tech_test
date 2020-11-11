@@ -1,7 +1,6 @@
 # Technical Assessment for DE Sys Engr
 
 ### Base OS
-
 1. Update and upgrade the OS packages
 
 2. Add admin group - ag_adm, gid=1001; ad_usr, gid=1002
@@ -29,3 +28,8 @@
 
 ### Access.conf
 12. Configure /etc/security/access.conf to only allow hdadmin, adm-john and john to login via the network (not LOCAL), and deny everyone else from everywhere.
+
+### Monitoring
+13. Write a script that lists disk partitions that are more than 80% full.
+
+14. Set up a cron job to run the script every 15mins.
